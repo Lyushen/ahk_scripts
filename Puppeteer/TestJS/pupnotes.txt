@@ -1,0 +1,54 @@
+STEAM #################
+var CurrentAppID;
+
+function GetAppIDFromUrl( url )
+{
+	const appid = url.match( /\/(app|sub|bundle|friendsthatplay|gamecards|recommended)\/([0-9]+)/ );
+
+	return appid ? parseInt( appid[ 2 ], 10 ) : -1;
+}
+function GetCurrentAppID()
+{
+	if( !CurrentAppID )
+	{
+		CurrentAppID = GetAppIDFromUrl( location.pathname );
+	}
+
+	return CurrentAppID;
+}
+########################
+
+#search_resultsRows > a.search_result_row.ds_collapse_flag.ds_owned.ds_ignored.ds_flagged
+
+#search_resultsRows > a:nth-child(2)
+#search_resultsRows > a:nth-child(3)
+#search_resultsRows > a.search_result_row.ds_collapse_flag.ds_flagged.ds_wishlist.ds_ignored
+
+
+:not(.ds_ignored):not(.ds_wishlist)
+
+https://intoli.com/blog/not-possible-to-block-chrome-headless/
+
+document.querySelector("#search_resultsRows > a:not(.ds_ignored):not(.ds_wishlist) > div.ds_options").click()
+document.querySelector(".ds_options_tooltip > div:nth-child(2)").click()
+
+
+##donwload
+
+E:\Install\SystemFolders\Progs\Tools\PuTTY\pscp.exe -i "E:\Install\SystemFolders\Progs\Tools\PuTTY\oracle_private.ppk" ubuntu@130.61.14.52:/home/ubuntu/nytimes.png C:\
+
+## upload
+
+E:\Install\SystemFolders\Progs\Tools\PuTTY\pscp.exe -i "E:\Install\SystemFolders\Progs\Tools\PuTTY\oracle_private.ppk" C:\Puppeteer\index.js ubuntu@130.61.14.52:/home/ubuntu/
+
+
+Ваш ключ веб-API Steam
+Ключ: 3DE0BB385C921CA9425D3926E8BA51DB
+Домен: 0.0.0.0/0
+
+await page.evaluate(() => {
+    const btns = [...document.querySelector('.HmktE').querySelectorAll('button')]
+    btns.forEach(function (btn) {
+      if (btn.innerText === 'Log In') { btn.click() }
+    })
+  })

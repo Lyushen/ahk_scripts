@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<theme>
+	<name>Solarized Dark</name>
+	<author>Peared</author>
+	<caret color="0x2056FF" multi="0x00A5FF" lineback="0x074BFF" width="2" debug="255"></caret>
+	<default background="0x362B00" color="16777215" font="Consolas" size="10" underline="0" bold="0" italic="0" strikeout="0"></default>
+	<find>
+	</find>
+	<inlinecomment color="15116881"></inlinecomment>
+	<numbers color="12303280"></numbers>
+	<punctuation color="0x009985"></punctuation>
+	<multilinecomment color="13553358"></multilinecomment>
+	<completequote color="13441961"></completequote>
+	<incompletequote color="6585343"></incompletequote>
+	<backtick color="0xDCE7FF"></backtick>
+	<linenumbers color="16248272"></linenumbers>
+	<indentguide color="4227327"></indentguide>
+	<editedmarkers edited="0x0000FF" saved="0x00FF00"></editedmarkers>
+	<fold color="0"></fold>
+	<projectexplorer>
+	</projectexplorer>
+	<selfore bool="1" code="2067" color="0xECE000"></selfore>
+	<selback bool="1" code="2068" color="0x3E4849"></selback>
+	<additionalselback code="2601" color="11908533"></additionalselback>
+	<keyword set="0" color="16013657"></keyword>
+	<keyword set="1" color="655131"></keyword>
+	<keyword set="2" color="0x009985"></keyword>
+	<keyword set="3" color="4618148"></keyword>
+	<keyword set="4" color="327907"></keyword>
+	<keyword set="5" color="1248767"></keyword>
+	<keyword set="6" color="0xD3E8FF"></keyword>
+	<keyword set="7" color="1619559"></keyword>
+	<keyword set="8" color="2660863"></keyword>
+	<codeexplorer>
+	</codeexplorer>
+	<additionalselfore code="2600"></additionalselfore>
+</theme>

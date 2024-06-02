@@ -1,0 +1,19 @@
+{
+  "name": "Puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2ip.js",
+  "dependencies": {
+    "puppeteer": "^9.1.1",
+    "debug":"ndb steam.js"
+  },
+  "devDependencies": {
+    "ndb": "^1.1.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

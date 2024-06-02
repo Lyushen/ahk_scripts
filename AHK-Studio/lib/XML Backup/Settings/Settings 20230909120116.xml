@@ -1,0 +1,222 @@
+﻿<?xml version="1.0"?>
+<settings>
+	<Extensions>
+		<Extension language="ahk">ahk</Extension>
+		<Extension language="hypertext">html</Extension>
+		<Extension language="hypertext">htm</Extension>
+		<Extension language="json">json</Extension>
+		<Extension language="xml">xml</Extension>
+	</Extensions>
+	<Languages>
+		<hypertext date="20230815214321" name="HTML">
+			<font color="7843024" style="2"></font>
+			<font color="13617276" fold="1" style="1"></font></hypertext>
+		<json date="20180904052510" name="JSON">
+			<font color="7843024" style="2"></font>
+			<font color="13617276" fold="1" style="1"></font></json>
+		<xml date="20230815214321" name="XML">
+			<font color="16758590" style="1"></font>
+			<font color="14732901" style="3"></font>
+			<font color="0x00FF00" style="11"></font>
+			<font color="0x00FF00" style="12"></font>
+			<font color="0x00FF00" style="13"></font></xml>
+		<ahk date="20230815214321" name="AutoHotkey">
+			<font style="0" color="12632256"></font>
+			<font style="40" color="65408"></font>
+			<font style="41" color="16776960"></font>
+			<font style="42" color="0"></font>
+			<font style="55" color="4227327"></font>
+			<font style="56" color="7405346"></font>
+			<font style="57" color="16745090"></font>
+			<font style="58" color="8388863"></font>
+			<font style="59" color="12615935"></font>
+			<font style="60" color="11184895"></font>
+			<font style="61" color="4737279"></font>
+			<font style="96" color="8388863"></font>
+			<font style="97" color="8388863"></font>
+			<font style="99" color="8388863"></font>
+			<font style="100" color="8388863"></font></ahk>
+	</Languages>
+	<Highlight>
+		<Color color="0xB402C0" index="1"></Color>
+		<Color color="0x361FEF" index="2"></Color>
+		<Color color="0xC782C8" index="3"></Color>
+		<Color color="0x6569B7" index="4"></Color>
+		<Color color="0x0A87FE" index="5"></Color>
+		<Color color="0xB642D9" index="6"></Color>
+		<Color color="0x7202C0" index="7"></Color>
+		<Color color="0xE007ED" index="8"></Color>
+		<Color color="0x5097AF" index="9"></Color>
+		<Color color="0x0F7CE7" index="10"></Color>
+	</Highlight>
+	<autoadd altgr="0">
+		<key add="&quot;" trigger="&quot;"></key>
+		<key add="'" trigger="'"></key>
+		<key add=")" trigger="("></key>
+		<key add="]" trigger="["></key>
+		<key add="}" trigger="{"></key></autoadd>
+	<options Manual_Continuation_Line="1" Full_Auto_Indentation="1" Focus_Studio_On_Debug_Breakpoint="1" Word_Wrap_Indicators="1" Auto_Complete="1" Auto_Complete_In_Quotes="1" Auto_Complete_While_Tips_Are_Visible="1" Hide_Tray_Icon="1" Ask_Before_Overwriting_Edited_Files="1" Clear_Debug_On_Run="1" Brace_Match_Background_Match="1" Auto_Check_For_Update_On_Startup="1" Hide_Vertical_Scrollbars="1" Hide_Horizontal_Scrollbars="1" Add_Margins_To_Windows="1" Global_Debug_Hotkeys="1" Run_As_Admin="1" Greed="1" Check_For_Edited_Files_On_Focus="1"></options>
+	<autodelete>
+		<key close="&quot;" open="&quot;"></key>
+		<key close="%" open="%"></key>
+		<key close="'" open="'"></key>
+		<key close=")" open="("></key>
+		<key close="&gt;" open="&lt;"></key>
+		<key close="]" open="&lt;^&gt;["></key>
+		<key close="}" open="&lt;^&gt;{"></key>
+		<key close="]" open="["></key>
+		<key close="}" open="{"></key>
+	</autodelete>
+	<gui zoom="10">
+		<position window="Settings" max="0">h953 w900 x502 y20</position>
+		<position window="35">x741 y363 w934 h576</position>
+		<position window="8">x917 y412 w734 h624</position>
+		<position window="30">x1467 y693 w230 h277</position>
+		<position window="5">x1276 y203 w596 h572</position>
+		<position window="Refresh_Code_Explorer">x1161 y624 w255 h231</position>
+		<position window="98">x1052 y535 w508 h371</position>
+		<position window="RCMEditor">x716 y468 w938 h411</position>
+		<position window="Toolbar_Editor">x529 y450 w943 h531</position>
+		<position window="1" max="0"></position>
+		<position window="20">x897 y609 w614 h234</position>
+		<position window="Restore_Current_File">x822 y418 w900 h524</position>
+		<position window="Version">x852 y422 w876 h538</position>
+		<position window="Previous_Scripts">x1044 y460 w456 h440</position>
+		<position window="Menu_Help">x977 y522 w626 h338</position>
+		<position window="hotkeys">x1077 y385 w390 h590</position>
+		<position window="CFU">x1065 y450 w414 h460</position>
+		<position window="Project_Specific_AutoComplete">x1115 y511 w314 h338</position>
+		<position window="Custom_Commands">x1009 y304 w536 h762</position>
+		<position window="MsgBox_Creator">x643 y477 w432 h335</position>
+		<position window="Highlight_Selected_Area">x1140 y499 w274 h373</position>
+		<position window="Insert_Color_Code">x1165 y554 w224 h263</position>
+		<position window="Create_Comment">x1015 y498 w524 h374</position></gui>
+	<previous_scripts>
+		<script>D:\Install\SystemFolders\Documents\!NeedToSave\!SpamKeys.ahk</script>
+		<script>D:\Install\SystemFolders\Documents\!NeedToSave\myScripts\!SpamKeys.ahk</script>
+		<script>D:\Install\SystemFolders\Documents\!NeedToSave\AHK-Studio Backup\!SpamKeys.ahk\20221111221358\!SpamKeys.ahk</script>
+		<script>D:\GoogleDrive\Documents\AutoHotKey\Lib\DebugWindow.AHK</script>
+		<script>D:\Install\SystemFolders\Documents\!NeedToSave\AHK-Studio Backup\!SpamKeys.ahk\20230204142829\!SpamKeys.ahk</script>
+		<script>D:\Install\SystemFolders\Documents\!NeedToSave\!SpamKeys2.0_newV2.ahk</script>
+		<script>D:\Install\SystemFolders\Documents\!NeedToSave\AHK-Studio Backup\!SpamKeys.ahk\20230204142109\!SpamKeys.ahk</script>
+		<script>D:\Install\SystemFolders\Progs\!my\!myahk.ahk</script>
+		<script>D:\Install\SystemFolders\Documents\!NeedToSave\AHK-Studio Backup\!SpamKeys.ahk\20230204142226\!SpamKeys.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\PathOfExile\poe2ww.ahk</script>
+		<script>E:\Install\SystemFolders\Progs\!my\!myahk.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\!SpamKeys.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\AHK-Studio Backup\!SpamKeys.ahk\20210612000726\!SpamKeys.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\PathOfExile\AHK-Studio Backup\poe2ww.ahk\20210417194039\poe2ww.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\AHK-Studio Backup\!SpamKeys.ahk\20210407123911\!SpamKeys.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\BlueStack_app.ahk</script>
+		<script>E:\Install\SystemFolders\Desktop\LegendsOfRuneterra-AutoConcede-master\LoRAutoConcede_AI_AND_PVP.ahk</script>
+		<script>E:\Install\SystemFolders\Desktop\LegendsOfRuneterra-AutoConcede-master\LoRAutoConcede_AI.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\!TEST.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\AHK-Studio\Untitled\Untitled1.ahk</script>
+		<script>D:\GoogleDrive\Documents\Downloads\Bluestacks\app.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\BoD.ahk</script>
+		<script>E:\Install\SystemFolders\Desktop\Tradegoods Price Table 4k v0.3-283-0-3-1586295512\TradePricesTable.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\Debug.ahk</script>
+		<script>E:\Install\SystemFolders\Desktop\Game-Vivifier-master\Game Vivifier.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\pubg_hk.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\Hades.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\WarFrame\WF.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\GrimDawn\GD.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\OtherGames\Bloodstained.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\AO.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\BlueStack_app_1.ahk</script>
+		<script>C:\Progs\!my\!myahk.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\WoWTBA.ahk</script>
+		<script>E:\Install\SystemFolders\Desktop\Game-Vivifier-master\Resources\AHK\JSON.ahk</script>
+		<script>E:\Install\SystemFolders\Desktop\BoD.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\CMS2018.ahk</script>
+		<script>D:\GoogleDrive\Documents\AutoHotKey\Poe-Companion-master\PoeCompanion.ahk</script>
+		<script>D:\The Long Drive v05.10.2019\mouse2joystick.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\KeyHistory.ahk</script>
+		<script>D:\Steam\steamapps\common\Path of Exile\POE-TradeMacro-2.15.0\_TradeMacroMain.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\AHK-Studio-master\AHK-Studio.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\ed.ahk</script>
+		<script>C:\Progs\!my\OffScreen.ahk</script>
+		<script>C:\Progs\!my\myahk.ahk</script>
+		<script>C:\Progs\!my\killapp.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\wow.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\spamkeys.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\AHK-Studio-master\Untitled\Untitled1.ahk</script>
+		<script>E:\Games\Hades.Battle.Out.of.Hell.v18357\x64\Hades.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\OtherGames\Untitled1.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\LoL.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\PathOfExile\poe2ww_BIGfunc.ahk</script>
+		<script>D:\GoogleDrive\Documents\!NeedToSave\myScripts\lol2.ahk</script>
+	</previous_scripts>
+	<open>
+		<file>D:\Install\SystemFolders\Documents\!NeedToSave\test.ahk</file>
+		<file>D:\Install\SystemFolders\Progs\!my\!myahk.ahk</file>
+		<file>D:\Install\SystemFolders\Documents\!NeedToSave\myScripts\!SpamKeys.ahk</file>
+	</open>
+	<findreplace cs="1" currentsel="0" greed="0" Include="0" ml="0" regex="0"></findreplace>
+	<search>
+		<find acdc="0" allfiles="0" Auto_Show="0" cs="0" daioc="0" gr="0" regex="0" sort="0"></find>
+	</search>
+	<toolbar>
+		<bar id="20 июня 2019 г. 18:44:32.061">
+			<button file="Shell32.dll" func="Open" icon="3" id="10000" state="4" text="Open" vis="1"></button>
+			<button file="Shell32.dll" func="Run" icon="76" id="11102" state="4" text="Run" vis="1"></button></bar>
+		<bar id="20 июня 2019 г. 18:49:47.659">
+			<button file="Shell32.dll" func="Command_Help" icon="154" id="10003" state="4" text="Command Help" vis="1"></button>
+			<button file="Shell32.dll" func="Toggle_Multiple_Line_Comment" icon="70" id="10001" state="4" text="Toggle Multiple Line Comment" vis="1"></button>
+			<button file="Shell32.dll" func="Fold_All" icon="300" id="10005" state="4" text="Fold All" vis="1"></button>
+			<separator vis="1">1</separator>
+			<button file="Shell32.dll" func="Run" icon="137" id="11102" state="4" text="Run" vis="1"></button>
+			<button file="Shell32.dll" func="Kill_Process" icon="131" id="10002" state="4" text="Kill Process" vis="1"></button>
+			<separator vis="1">1</separator>
+			<button file="Shell32.dll" func="Check_For_Update" icon="238" id="10004" state="4" text="Check For Update" vis="1"></button>
+			<button file="Shell32.dll" func="Compile_Ahk_Studio" icon="46" id="10000" state="4" text="Compile Ahk Studio" vis="1"></button>
+			<separator vis="1">1</separator>
+			<button file="Shell32.dll" func="Undo" icon="297" id="10006" state="4" text="Undo" vis="1"></button>
+			<button file="Shell32.dll" func="Redo" icon="299" id="10007" state="4" text="Redo" vis="1"></button></bar>
+	</toolbar>
+	<CustomColors Color1="0" Color2="0" Color3="0" Color4="0" Color5="0" Color6="0" Color7="0" Color8="0" Color9="0" Color10="0" Color11="0" Color12="0" Color13="0" Color14="0" Color15="0" Color16="0"></CustomColors>
+	<SaveAs>D:\Install\SystemFolders\Documents\!NeedToSave</SaveAs>
+	<DefaultEditor>"D:\Install\SystemFolders\Documents\!NeedToSave\myScripts\AHK-Studio\AHK-Studio - .exe" "%1"</DefaultEditor>
+	<HelpNag>1</HelpNag>
+	<DuplicateIndicator style="14" trans="50"></DuplicateIndicator>
+	<theme>
+		<name>Solarized Dark</name>
+		<author>Peared</author>
+		<caret color="0x2056FF" multi="16777215" lineback="395007" width="2" debug="255"></caret>
+		<default background="0x362B00" color="16777215" font="Consolas" size="10" underline="0" bold="0" italic="0" strikeout="0"></default>
+		<find>
+		</find>
+		<inlinecomment color="15116881"></inlinecomment>
+		<numbers color="12303280"></numbers>
+		<punctuation color="64375"></punctuation>
+		<multilinecomment color="13553358"></multilinecomment>
+		<completequote color="13441961"></completequote>
+		<incompletequote color="6585343"></incompletequote>
+		<backtick color="0xDCE7FF"></backtick>
+		<linenumbers color="16248272"></linenumbers>
+		<indentguide color="4227327"></indentguide>
+		<editedmarkers edited="0x0000FF" saved="0x00FF00"></editedmarkers>
+		<fold color="0"></fold>
+		<projectexplorer>
+		</projectexplorer>
+		<selfore bool="0" code="2067" color="0xECE000"></selfore>
+		<selback bool="1" code="2068" color="0x3E4849"></selback>
+		<additionalselback code="2601" color="11908533"></additionalselback>
+		<keyword set="0" color="16013657"></keyword>
+		<keyword set="1" color="327447"></keyword>
+		<keyword set="2" color="42982"></keyword>
+		<keyword set="3" color="16745481"></keyword>
+		<keyword set="4" color="327907"></keyword>
+		<keyword set="5" color="1248767"></keyword>
+		<keyword set="6" color="0xD3E8FF"></keyword>
+		<keyword set="7" color="1619559"></keyword>
+		<keyword set="8" color="2660863"></keyword>
+		<additionalselfore code="2600" color="16777215"></additionalselfore>
+		<codeexplorer>
+		</codeexplorer>
+	</theme>
+	<autocomplete>
+		<project file="D:\GoogleDrive\Documents\!NeedToSave\myScripts\PathOfExile\poe2ww.ahk"></project>
+	</autocomplete>
+	<Create_Comment Fill="-" Width="100"></Create_Comment>
+</settings>
