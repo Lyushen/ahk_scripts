@@ -1,0 +1,11 @@
+﻿<?xml version="1.0"?>
+<versions>
+	<info file="D:\GoogleDrive\Documents\!NeedToSave\myScripts\!SpamKeys.ahk">
+		<branch name="main" expand="1">
+			<version draft="false" name="1" prerelease="true" target_commitish="main" expand="1">
+				<info action="" issue="" type="" user="" select="1"></info></version></branch></info>
+	<info file="D:\Install\SystemFolders\Documents\!NeedToSave\myScripts\!SpamKeys.ahk">
+		<branch name="main" expand="1">
+			<version draft="false" name="1" prerelease="true" target_commitish="main" expand="1">
+				<info action="" issue="" type="" user="" select="1"></info></version></branch></info>
+</versions>

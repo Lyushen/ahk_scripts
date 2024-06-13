@@ -1,0 +1,27 @@
+import java.util.Arrays;
+public class MyClass {
+    public static void main(String args[]) {
+  // Only change code below this line
+        int[] array={1,4,2,8,345,123,43,32,5643,63,123,43,2,55,1,234,92};
+        int arrayLength=array.length-1;
+        int ruN=1,tmp=0,go;
+        while (ruN==1)
+        {
+          go=0;
+          for(int i=0;arrayLength>i;i++)
+          {
+            if(array[i]>array[i+1])
+            {
+              tmp=array[i];
+              array[i]=array[i+1];
+              array[i+1]=tmp;
+              go=1;
+            }
+          }
+          if(go==0) break;
+        }
+        
+          System.out.println(Arrays.toString(array));
+          // Only change code above this line
+        }
+    }

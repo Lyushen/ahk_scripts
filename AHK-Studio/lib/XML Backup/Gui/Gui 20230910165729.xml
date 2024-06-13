@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<gui>
+	<win win="1" pos="x233 y15 w1678 h865">
+		<control h="780" w="1540" x="0" y="41" type="Scintilla" file="D:\Install\SystemFolders\Documents\!NeedToSave\myScripts\!SpamKeys.ahk" hwnd="2" tp="0.04981774" lt="0" ra="5" last="1"></control>
+		<control hwnd="3" type="Project Explorer" h="556" w="138" x="1540" y="265" lp="0.917759" ll="0" tp="0.32268371"></control>
+		<control hwnd="4" type="Toolbar" id="20 июня 2019 г. 18:49:47.659" toolbar="198458" win="window0" h="41" w="1540" x="0" y="0" ra="5" ba="2"></control>
+		<control hwnd="5" type="Code Explorer" h="265" w="138" x="1540" y="0" lp="0.917759" ll="0" ba="3"></control></win>
+</gui>
