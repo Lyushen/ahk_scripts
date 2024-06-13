@@ -138,13 +138,18 @@ class SpamTimer{
 ;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% *[GAMES] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%;{ 
 ;# - WIN ! - ALT ^ - CTRL + SHIFT <>- left right mods
 ;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-global diablo_counter := TogTimer(["LButton"], 5, ["LButton"], [5, 5])
+global diablo_counter := TogTimer([LButton], 5, [LButton], [5, 5])
 #HotIf WinActive("ahk_exe Diablo IV.exe")										;{ [Diablo IV]
 	*XButton2::
 	{
 		global diablo_counter
     	diablo_counter.Start()
 	}
+#HotIF ;}
+
+#HotIf WinActive("ahk_class SDL_app")										;{ [VN games]
+	*XButton2::Spam2(XButton2,LButton)
+	*~XButton1::CTRL
 #HotIF ;}
 
 #HotIf WinActive("ahk_exe SC2_x64.exe")										;{ [StarCraft II]
@@ -159,6 +164,7 @@ global diablo_counter := TogTimer(["LButton"], 5, ["LButton"], [5, 5])
 		send "{F9}"
 		return
 	}
+	$*~LButton::Spam2(LButton,"F9",100)
 #HotIF ;}
 #HotIf WinActive("ahk_exe VRising.exe")		 								;{ [VRising]
 	$XButton2::
