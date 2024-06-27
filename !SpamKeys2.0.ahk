@@ -25,7 +25,6 @@ global timerActive := false
 	DetectHiddenWindows False
 }
 #HotIf (WinActive("AHK Studio") || WinActive("ahk_exe Code.exe")	)					;{ [AHK Studio or VS Code]
-*F11::
 	*~^s::
 	{
 		if A_IsCompiled
@@ -38,7 +37,7 @@ global timerActive := false
 		ExitApp
 	}
 #HotIf ;}
-ShowToolTip(text,duration := 500) {
+ShowToolTip(text,duration := 200) {
     ToolTip(text)
     SetTimer(() => ToolTip(), -duration) ; SetTimer with a negative duration runs once after the specified time
 }
@@ -84,15 +83,22 @@ Spam2(ifkey1,skey1,to1 := 5,ifkey2 := "",skey2 := "",ifkey3 := "",skey3 := "",if
 	return
 }
 class TogTimer {
-    __New(kk := [], to := 5, ik := [], holdkey := []) {
+    __New(kk := [], ik := [], to := 5, holdkey := []) {
         ; Initialize parameters
         this.kk := kk
         this.to := to
         this.ik := ik
-        this.holdkey := holdkey
+        this.holdkey := holdkey.Clone()
         this.timer := ObjBindMethod(this, "Tick")
         this.isActive := false
         this.gATitle := ""
+		; Ensure this.holdkey has at least the same number of elements as this.kk
+		if (this.kk.Length > this.holdkey.Length) {
+			; Fill the array with 5 until it reaches the desired length
+			loop kk.Length - this.holdkey.Length {
+                this.holdkey.Push(5)
+            }
+		}
     }
     
     Start() {
@@ -100,23 +106,23 @@ class TogTimer {
         if !this.isActive {
             SetTimer(this.timer, this.to)
             this.isActive := true
-            ShowToolTip("Timer started")
+            ShowToolTip("▶▶▶")
         } else {
             this.Stop()
-            ShowToolTip("Timer stopped")
+            ShowToolTip("⛔")
         }
     }
 
     Stop() {
         SetTimer(this.timer, 0)
         this.isActive := false
-        ShowToolTip("Timer stopped")
+        ShowToolTip("⛔")
     }
 
     Tick() {
         if WinActive("ahk_exe " this.gATitle) {
             for i, key in this.ik {
-                if key != "" && GetKeyState(key, "P") {
+                if GetKeyState(key, "P") && !GetKeyState("ALT", "P"){
                     Send("{blind}{" this.kk[i] " down}")
                     Sleep(this.holdkey[i])
                     Send("{blind}{" this.kk[i] " up}")
@@ -130,15 +136,12 @@ class TogTimer {
         }
     }
 }
-class SpamTimer{
-	
-}
 ;}############################################### *[FUNCS] #####################################################
 ;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 ;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% *[GAMES] %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%;{ 
 ;# - WIN ! - ALT ^ - CTRL + SHIFT <>- left right mods
 ;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-global diablo_counter := TogTimer([LButton], 5, [LButton], [5, 5])
+global diablo_counter := TogTimer([LButton,1], [LButton,1],5)
 #HotIf WinActive("ahk_exe Diablo IV.exe")										;{ [Diablo IV]
 	*XButton2::
 	{
